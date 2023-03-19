@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estiloQuiz.css">
+    <title>Quiz Tesla</title>
+</head>
+<body>
+    <main>
+        <div class="cabecalho">
+            <h1>Quiz Tesla</h1>
+            <p>Responda esse pequeno quiz sobre a tesla</p>
+        </div>
+
+        <form action="#" method="get" class="form">
+            <div class="cabecalho">
+                <h2>Insira seus dados</h2>
+                <label for="email" class="perguntas">Email</label>
+                <input type="email" name="email" id="email" autocomplete="off" placeholder="Digite seu email">
+                <label for="senha" class="perguntas">Senha</label>
+                <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+            </div>
+
+            <div class="campo">
+                <label for="ask1" class="perguntas">Quem são os fundadores da Tesla?</label>
+                <input type="text" name="ask1" id="ask1">
+            </div>
+
+            <div class="campo">
+                <p class="perguntas">Selecione os modelos da Tesla</p>
+                <label for="ask21" class="">TESLA MODEL X</label>
+                <input type="checkbox" name="ask21" id="ask21" class="check">
+                <label for="ask22" class="">Onix</label>
+                <input type="checkbox" name="ask22" id="ask22" class="check">
+                <label for="ask23" class="">TESLA MODEL Y</label>
+                <input type="checkbox" name="ask23" id="ask23" class="check">
+                <label for="ask24" class="">Camaro</label>
+                <input type="checkbox" name="ask24" id="ask24" class="check">
+                <label for="ask25" class="">TESLA MODEL Z</label>
+                <input type="checkbox" name="ask25" id="ask25" class="check">
+            </div>
+        
+
+            <div class="campo">
+                <label for="ask3" class="perguntas">Qual é o nome do CEO da Tesla?</label>
+                <p>Elon</p>
+                <select name="" id="seletor">
+                    <option value="" selected disabled>Selecione</option>
+                    <option name="">Mustang</option>
+                    <option name="">Mostarda</option>
+                    <option name="">Musk</option>
+                    <option name="">Musgo</option>
+                    <option name="">Mundo</option>
+                </select>
+            </div>
+            
+            
+
+            <div class="campo">
+                <label for="ask4" class="perguntas">Em qual valor é avaliada a Tesla?</label>
+                <input type="number" name="ask4" id="ask4" placeholder="Digite o valor">
+            </div>
+
+            <div class="campo">
+                <p class="perguntas">Qual seu carro favorito da Tesla?</p>
+                <div>
+                    <label for="resp1" class="radio">TESLA MODEL X</label>
+                    <input type="radio" name="ask5" id="resp1">
+                </div>
+                <div>
+                    <label for="resp2" class="radio">TESLA MODEL S</label>
+                    <input type="radio" name="ask5" id="resp2">
+                </div>
+                <div>
+                    <label for="resp3" class="radio">TESLA MODEL Y</label>
+                    <input type="radio" name="ask5" id="resp3">
+                </div>
+            </div>
+
+
+            <div class="campo">
+                <label for="data" class="perguntas">Qual é a data de fundação da Tesla?</label>
+                <input type="date" name="data" id="data">
+            </div>
+
+            <div class="campo">
+                <label for="ask9" class="perguntas">Quais serviços a Tesla oferece? </label>
+                <input type="text" name="ask9" id="ask9">
+            </div>
+
+            
+            <div class="campo">
+                <label for="texto" class="perguntas">Disserte sobre a importância dos carros elétricos da Tesla</label>
+                <textarea name="texto" id="texto" cols="50" rows="10"></textarea>
+            </div>
+
+            <p class="buttons">
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </p>
+        </form>
+    </main>
+    <footer>
+        <a href="index.html">Voltar a página inicial</a>
+    </footer>
+</body>
+</html>
