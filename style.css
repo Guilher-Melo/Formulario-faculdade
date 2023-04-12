@@ -18,7 +18,8 @@
 .menu{
     display: flex;
     justify-content: flex-start;
-    margin-top: 15px;
+    padding-top: 15px;
+    background-color: lightgrey;
 }
 .span-logo{
     display: block
@@ -36,7 +37,6 @@
     display: flex;
     justify-content: flex-end;
     width: 100%;
-    padding-right: 20px;
 }
 .cabecalho{
     margin-top: 30px;
@@ -54,20 +54,53 @@ padding: 15px 0 10px 0;
 .texto p{
     padding: 10px;
 }
+
+.topico {
+    border-bottom: 1px solid rgb(148, 148, 148);
+    margin-left: 15px;
+    margin-top: 13px;
+}
+
 main{
     display: flex;
     padding: 10px;
 }
-.tabela{
+
+ul li {
+    margin-top: 20px;
+}
+
+
+.tabela table{
  border: 1px solid black;
  text-align: center;
 }
 
+
+.img-table img {
+    margin-left: 10%;
+}
+
 .estilo-td {
-    vertical-align: top;
     text-align: left;
+    font-weight: bold;
+}
+th span {
+    margin-left: 15px;
+}
+
+.resp-tabela {
+    text-align: left;
+    padding-top: 14px;
 }
 
 footer {
+    margin-top: 12px;
     text-align: center;
+}
+
+footer a {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 10px;
 }

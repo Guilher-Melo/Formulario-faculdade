@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="estiloLogin.css">
+</head>
+<body>
+  <div class="main-content">
+    <div class="form">
+      <form action="#">
+        <h1>Login</h1>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Seu email">
+        </div>
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" placeholder="Sua senha">
+        <button>
+          <a href="quiz.html">Ir para o quiz</a>
+        </button>
+        <button>
+          <a href="index.html">Voltar para página principal</a>
+        </button>
+      </form>
+    </div>
+  </div>
+  <script>
+    const idade = Number(prompt("Qual a sua idade? "));
+    if (idade >= 18) {
+      alert("Parabéns! Você já pode dirigir um carro da Tesla! (Se tiver dinheiro...)")
+    } else {
+      alert("Que pena! Você ainda não pode dirigir um carro da Tesla")
+    }
+  </script>
+</body>
+</html>
