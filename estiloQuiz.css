@@ -8,7 +8,7 @@
 
 body {
     text-align: center;
-    background-color: #93C48B;
+    background: linear-gradient(#93C48B, #62925a);
     color: #3D0814;
 }
 
@@ -37,6 +37,11 @@ form input:focus, textarea:focus {
     font-size: 1.2rem;
     font-weight: bold;
 }
+
+.color {
+    color: #1656a3;
+}
+
 .buttons {
     margin-top: 12px;
 }
@@ -56,7 +61,6 @@ form input:focus, textarea:focus {
     padding: 5px;
     display: inline-block;
 }
-
 
 .check {
     margin: 10px;

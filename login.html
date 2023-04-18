@@ -16,23 +16,27 @@
           <label for="email">Email</label>
           <input type="email" id="email" placeholder="Seu email">
         </div>
+
         <label for="senha">Senha</label>
         <input type="password" id="senha" placeholder="Sua senha">
-        <button>
-          <a href="quiz.html">Ir para o quiz</a>
-        </button>
-        <button>
-          <a href="index.html">Voltar para página principal</a>
-        </button>
+
+        <label for="idade">Qual sua idade?</label>
+        <input type="number" id="idade" placeholder="Sua idade" name="idade">
+        
+          <a href="quiz.html" class="button-link" onclick="verificaIdade(idade.value)">Ir para o quiz</a>
+        
+          <a href="index.html" class="button-link">Voltar para página principal</a>
+        
       </form>
     </div>
   </div>
   <script>
-    const idade = Number(prompt("Qual a sua idade? "));
-    if (idade >= 18) {
-      alert("Parabéns! Você já pode dirigir um carro da Tesla! (Se tiver dinheiro...)")
+    function verificaIdade(idade) {
+      if (idade >= 18) {
+        alert("Parabéns! Você já pode dirigir um carro da Tesla! (Se tiver dinheiro...)")
     } else {
-      alert("Que pena! Você ainda não pode dirigir um carro da Tesla")
+        alert("Que pena! Você ainda não pode dirigir um carro da Tesla")
+      }
     }
   </script>
 </body>
